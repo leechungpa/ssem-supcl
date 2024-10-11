@@ -1,4 +1,4 @@
-# Optimizing Embeddings with Supervised Contrastive Loss for Preventing Class Collapse
+# A Theoretical Framework for Preventing Class Collapse in Supervised Contrastive Learning
 
 ```python
 python main.py experiment_name \
