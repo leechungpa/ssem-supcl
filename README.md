@@ -1,4 +1,4 @@
-# Optimizing Embeddings with Supervised Contrastive Loss for Preventing Class Collapse
+# A Theoretical Framework for Preventing Class Collapse in Supervised Contrastive Learning
 
 
 ### For training on the CIFAR datasets
@@ -13,6 +13,7 @@ CUDA_VISIBLE_DEVICES=0 python cifar/main.py experiment_name \
     --alpha 0.5 --temperature 0.1 \
     --seed 0 --gpu 0 --epoch 1000 --balanced_batch True
 ```
+
 
 ### For training on the ImageNet dataset
 
