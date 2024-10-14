@@ -118,7 +118,7 @@ class MLP(nn.Module):
 
 
 def loss_func(embeddings, ys, alpha, temperature=1.0):
-    """Calculate the convex combination of SupCL and CL losses
+    """Calculate the SupCL loss
 
     Parameters
     ----------
